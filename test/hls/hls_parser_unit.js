@@ -39,7 +39,9 @@ describe('HlsParser', function() {
         customScheme: function(node) { return null; },
         clockSyncUri: '',
         ignoreDrmInfo: false,
-        xlinkFailGracefully: false
+        xlinkFailGracefully: false,
+        presentationDelay: '',
+        maxSegmentDuration: ''
       },
       hls: {
         defaultTimeOffset: 0
