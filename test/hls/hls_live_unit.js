@@ -40,9 +40,7 @@ describe('HlsParser live', function() {
         customScheme: function(node) { return null; },
         clockSyncUri: '',
         ignoreDrmInfo: false,
-        xlinkFailGracefully: false,
-        presentationDelay: '',
-        maxSegmentDuration: ''
+        xlinkFailGracefully: false
       },
       hls: {
         defaultTimeOffset: 0

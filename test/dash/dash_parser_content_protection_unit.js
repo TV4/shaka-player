@@ -44,9 +44,7 @@ describe('DashParser ContentProtection', function() {
         clockSyncUri: '',
         customScheme: callback,
         ignoreDrmInfo: ignoreDrmInfo,
-        xlinkFailGracefully: false,
-        presentationDelay: '',
-        maxSegmentDuration: ''
+        xlinkFailGracefully: false
       },
       hls: { defaultTimeOffset: 0 }
     });

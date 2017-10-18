@@ -488,9 +488,7 @@ shakaExtern.DrmConfiguration;
  *   customScheme: shakaExtern.DashContentProtectionCallback,
  *   clockSyncUri: string,
  *   ignoreDrmInfo: boolean,
- *   xlinkFailGracefully: boolean,
- *   presentationDelay: string,
- *   maxSegmentDuration: string
+ *   xlinkFailGracefully: boolean
  * }}
  *
  * @property {shakaExtern.DashContentProtectionCallback} customScheme
@@ -510,11 +508,6 @@ shakaExtern.DrmConfiguration;
  *   existing contents. If false, xlink-related errors will be propagated
  *   to the application and will result in a playback failure. Defaults to
  *   false if not provided.
- * @property {string} presentationDelay
- *   Override default presentationDelay (10S) if presentationDelay is missing
- *   in the MPEG DASH manifest
- * @property {string} maxSegmentDuration
- *   Override maxSegmentDuration in MPEG DASH manifest
  *
  * @exportDoc
  */

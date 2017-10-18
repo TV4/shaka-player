@@ -54,9 +54,7 @@ describe('DashParser Live', function() {
         clockSyncUri: '',
         customScheme: function(node) { return null; },
         ignoreDrmInfo: false,
-        xlinkFailGracefully: false,
-        presentationDelay: '',
-        maxSegmentDuration: ''
+        xlinkFailGracefully: false
       },
       hls: { defaultTimeOffset: 0 }
     });
