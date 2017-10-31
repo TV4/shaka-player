@@ -265,7 +265,9 @@ shakaExtern.Track;
  *   maxPixels: number,
  *
  *   minBandwidth: number,
- *   maxBandwidth: number
+ *   maxBandwidth: number,
+ *   minFrameRate: number,
+ *   maxFrameRate: number
  * }}
  *
  * @description
@@ -291,6 +293,10 @@ shakaExtern.Track;
  *   The minimum bandwidth of a variant track, in bit/sec.
  * @property {number} maxBandwidth
  *   The maximum bandwidth of a variant track, in bit/sec.
+ * @property {number} minFrameRate
+ *   The minimum framerate of a variant track, in frames/sec.
+ * @property {number} maxFrameRate
+ *   The maximum bandwidth of a variant track, in frames/sec.
  * @exportDoc
  */
 shakaExtern.Restrictions;
